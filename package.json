@@ -1,0 +1,25 @@
+{
+  "name": "dowload-azure-blob",
+  "version": "1.0.0",
+  "description": "A CLI to download blobs form a private azure container",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/foretagsplatsen/download-azure-blob.git"
+  },
+  "keywords": [
+    "azure",
+    "blob",
+    "cli",
+    "download"
+  ],
+  "author": "Benjamin Van Ryseghem <benjamin.vanryseghem@gmail.com> (https://benjamin.vanryseghem.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/foretagsplatsen/download-azure-blob/issues"
+  },
+  "homepage": "https://github.com/foretagsplatsen/download-azure-blob"
+}
