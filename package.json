@@ -2,7 +2,9 @@
   "name": "dowload-azure-blob",
   "version": "1.0.0",
   "description": "A CLI to download blobs form a private azure container",
-  "main": "index.js",
+  "bin": {
+    "download-azure-blob": "download-azure-blob.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/foretagsplatsen/download-azure-blob/issues"
   },
-  "homepage": "https://github.com/foretagsplatsen/download-azure-blob"
+  "homepage": "https://github.com/foretagsplatsen/download-azure-blob",
+  "dependencies": {
+    "azure-storage": "^0.4.4"
+  }
 }
